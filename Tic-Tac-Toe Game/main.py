@@ -1,7 +1,7 @@
 field = [['-']*3 for _ in range(3)]
 
 def func_field(f):
-  print(' 0 1 2')
+  print('  0 1 2')
   for i in range(len(field)):
     print(str(i), *field[i])
 
